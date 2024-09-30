@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>payoo-app</title>
+  <link rel="stylesheet" href="css/style.css">
+
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+
+
+</head>
+
+<body>
+  <main class="flex justify-center">
+    <div class="mockup-phone">
+      <div class="camera"></div>
+      <div class="display ">
+
+        <div class="artboard artboard-demo phone-2">
+
+          <div
+            style=" background-image:url(image/mizan.jpg); background-position: center; background-repeat: no-repeat; background-size: cover; "
+            class="hero  min-h-screen">
+            <div class="hero-content flex-col lg:flex-row-reverse">
+
+              <div class="card bg-base-100 w-full max-w-sm shrink-0 shadow-2xl mt-64">
+                <h1 class="text-3xl font-bold text-center mt-2">Login now!</h1>
+                <form class="card-body">
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-bold">Phone Number</span>
+                    </label>
+                    <input id="phone-number" type="text" placeholder="Your Phone Number" class="input input-bordered"
+                      required />
+                  </div>
+                  <div class="form-control">
+                    <label class="label">
+                      <span class="label-text font-bold">4 Digit Pin</span>
+                    </label>
+                    <input id="pin-number" type="password" placeholder="Your Pin Number" class="input input-bordered"
+                      required />
+
+                  </div>
+                  <div class="form-control mt-6">
+                    <button id="btn-login" class="btn btn-primary">Login</button>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+
+
+  <script src="js/login.js"></script>
+  <script src="https://cdn.tailwindcss.com"></script>
+</body>
+
+</html>
